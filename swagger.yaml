@@ -13,9 +13,9 @@ produces:
   - application/json
 paths:
   /usage/current/month/4859634:
-    x-summary: Current Month 4859634
+    x-summary: Current Month 4859635
     x-description: |
-        Returns gas and electricity usage of current month for the account number: 4859634. 
+        Returns gas and electricity usage of current month for the account number: 4859635. 
     get:
       responses:
         200:
@@ -24,7 +24,7 @@ paths:
             application/json:
                 [
         					{
-        						"account_number": "4859634",
+        						"account_number": "4859635",
         						"name": "Darko",
         						"gas_usage": "20,006 Btu",
         						"gas_cost": "¥ 46,896",
